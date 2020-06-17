@@ -1,0 +1,13 @@
+dubbo:
+  application:
+    name: test-dubbo-provider
+  registry:
+    address: 49.233.90.226:2181
+    protocol: zookeeper
+  protocol:
+    name: dubbo
+    port: 20881
+  monitor:
+    protocol: registry
+  scan:
+    base-packages: com.dubbo.provider

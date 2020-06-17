@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+dubbo:
+  application:
+    name: test-dubbo-consumer
+  registry:
+    address: zookeeper://49.233.90.226:2181
+  monitor:
+    protocol: registry
